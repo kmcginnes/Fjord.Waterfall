@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Transactions;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using DotNetOpenAuth.AspNet;
+using Fjord.Waterfall.Presentation.Filters;
+using Fjord.Waterfall.Presentation.Models;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using Fjord.Waterfall.Filters;
-using Fjord.Waterfall.Models;
 
-namespace Fjord.Waterfall.Controllers
+namespace Fjord.Waterfall.Presentation.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]

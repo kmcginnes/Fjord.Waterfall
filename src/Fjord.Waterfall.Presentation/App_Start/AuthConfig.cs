@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Web.WebPages.OAuth;
-using Fjord.Waterfall.Models;
-
-namespace Fjord.Waterfall
+﻿namespace Fjord.Waterfall.Presentation.App_Start
 {
     public static class AuthConfig
     {

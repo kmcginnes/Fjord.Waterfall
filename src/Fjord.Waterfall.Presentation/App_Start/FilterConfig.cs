@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace Fjord.Waterfall
+namespace Fjord.Waterfall.Presentation.App_Start
 {
     public class FilterConfig
     {

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace Fjord.Waterfall.Controllers
+namespace Fjord.Waterfall.Presentation.Controllers
 {
     public class HomeController : Controller
     {

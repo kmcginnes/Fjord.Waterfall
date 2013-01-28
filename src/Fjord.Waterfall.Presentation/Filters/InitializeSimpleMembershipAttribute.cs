@@ -3,10 +3,10 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Web.Mvc;
+using Fjord.Waterfall.Presentation.Models;
 using WebMatrix.WebData;
-using Fjord.Waterfall.Models;
 
-namespace Fjord.Waterfall.Filters
+namespace Fjord.Waterfall.Presentation.Filters
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public sealed class InitializeSimpleMembershipAttribute : ActionFilterAttribute

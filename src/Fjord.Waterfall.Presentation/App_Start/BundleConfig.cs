@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace Fjord.Waterfall
+namespace Fjord.Waterfall.Presentation.App_Start
 {
     public class BundleConfig
     {
